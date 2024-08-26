@@ -1,0 +1,9 @@
+[fasttrack]
+name=CentOS-vault-6.10 - fasttrack - mirrors.aliyun.com
+failovermethod=priority
+baseurl=http://mirrors.aliyun.com/centos-vault/6.10/fasttrack/$basearch/
+        http://mirrors.aliyuncs.com/centos-vault/6.10/fasttrack/$basearch/
+        http://mirrors.cloud.aliyuncs.com/centos-vault/6.10/fasttrack/$basearch/
+gpgcheck=1
+enabled=0
+gpgkey=http://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6

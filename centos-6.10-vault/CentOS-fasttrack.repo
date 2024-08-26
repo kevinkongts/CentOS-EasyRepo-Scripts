@@ -1,0 +1,7 @@
+[fasttrack]
+name=CentOS-6 - fasttrack
+#irrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=fasttrack&infra=$infra
+baseurl=http://vault.centos.org/centos/$releasever/fasttrack/$basearch/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
